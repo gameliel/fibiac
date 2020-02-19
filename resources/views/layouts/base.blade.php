@@ -63,16 +63,16 @@
     <div class="header header-light nav-left-side">
         <nav class="headnavbar">
             <div class="nav-header">
-                <a href="index.php" class="brand"><h2>F<span style="Color:#53b772;">I</span>BIAC</h2></a>
+                <a href="/" class="brand"><h2>F<span style="Color:#53b772;">I</span>BIAC</h2></a>
                 <button class="toggle-bar"><span class="ti-align-justify"></span></button>
             </div>
             <ul class="menu">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="listing.php">Listing</a></li>
-                <li><a href="about-us.php">About</a></li>
-                <li><a href="faq.php">Faq</a></li>
-                <!-- <li><a href="pricing.php">Subscribe Now</a></li> -->
-                <li><a href="contact.php">Contact us</a></li>
+                <li><a href="index">Home</a></li>
+                <li><a href="listing">Listing</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="faq">Faq</a></li>
+                <li><a href="pricing">Subscribe Now</a></li>
+                <li><a href="contact">Contact us</a></li>
             </ul>
             <!-- <ul class="attributes attributes-desk">
                 <li class="log-icon log-seprate"><a href="#" data-toggle="modal" data-target="#login">Log In</a></li>
@@ -360,4 +360,3 @@
 
 <!-- Mirrored from codeminifier.com/rikada-template/rikada/home-2.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Dec 2019 16:41:32 GMT -->
 </html>
-

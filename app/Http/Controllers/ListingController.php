@@ -57,6 +57,7 @@ class ListingController extends Controller
         return redirect()->route('listings.index')
             ->with('success','Listing created successfully.');
 
+
            }
 
     /**

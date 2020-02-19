@@ -11,13 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@index')->name('home');
+Route::get('about', 'PagesController@about')->name('about');
+Route::get('contact', 'PagesController@contact')->name('contact');
+Route::get('faq', 'PagesController@faq')->name('faq');
+Route::get('listing', 'PagesController@listing')->name('listing');
+Route::get('pricing', 'PagesController@pricing')->name('pricing');
 
 //my listing crud section
 Route::resource('listings', 'ListingController');
-Route::resource('products','ProductController');
 
 // authentication route secton
 Auth::routes();
