@@ -17,6 +17,7 @@ Route::get('contact', 'PagesController@contact')->name('contact');
 Route::get('faq', 'PagesController@faq')->name('faq');
 Route::get('listing', 'PagesController@listing')->name('listing');
 Route::get('pricing', 'PagesController@pricing')->name('pricing');
+Route::post('contact', 'ContactController@store');
 
 //my listing crud section
 Route::resource('listings', 'ListingController');

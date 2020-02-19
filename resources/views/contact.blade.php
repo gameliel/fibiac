@@ -29,7 +29,9 @@
 					<div class="row">
 
 					<div class="col-lg-7 col-md-7">
-						<form action="insert.php" method="post">
+						<form action="{{route('contact')}}" method="POST">
+							@csrf
+
 							<div class="row">
 								<div class="col-lg-6 col-md-6">
 									<div class="form-group">
